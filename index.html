@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kketua Enviroment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { background-color: #f0f9f0; }
+      .navbar { border-bottom: 3px solid #198754; }
+      .hero-section {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 60px 20px;
+        border-radius: 0 0 50px 50px;
+        margin-bottom: 30px;
+      }
+      .card-custom {
+        transition: transform 0.3s;
+        border: none;
+        border-radius: 15px;
+      }
+      .card-custom:hover { transform: translateY(-10px); }
+      .btn-primary { background-color: #198754; border: none; }
+      .btn-primary:hover { background-color: #146c43; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">🌿 Kketua Enviroment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-section text-center shadow">
+      <h1 class="display-4 fw-bold">Selamatkan Bumi Kita</h1>
+      <p class="lead">Mari menjaga lingkungan untuk masa depan yang lebih hijau.</p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10 text-center mb-5">
+          <h2 class="text-success mb-4 fw-bold">Apa Itu Pencemaran Lingkungan?</h2>
+          <p class="fs-5 text-secondary px-3">Pencemaran lingkungan merupakan masuknya zat berbahaya ke dalam udara, tanah, dan air sehingga menurunkan kualitasnya. Fenomena ini kini semakin meluas dan berdampak pada kesehatan, keseimbangan ekosistem, serta keberlangsungan hidup makhluk di bumi.</p>
+          <p class="text-muted italic">"Udara yang kita hirup, air yang kita minum, dan tanah tempat kita berpijak seharusnya menjadi sumber kehidupan."</p>
+        </div>
+      </div>
+
+      <div class="row text-center g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card card-custom shadow p-4 h-100 bg-white border-top border-success border-5">
+            <h3>☁️</h3>
+            <h5 class="fw-bold">Polusi Udara</h5>
+            <p class="small text-muted">Zat kimia yang merusak paru-paru bumi.</p>
+            <a href="artikel/polusiudara.html" class="btn btn-primary mt-auto">Baca Detail (1)</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom shadow p-4 h-100 bg-white border-top border-warning border-5">
+            <h3>🌱</h3>
+            <h5 class="fw-bold">Pencemaran Tanah</h5>
+            <p class="small text-muted">Limbah yang merusak kesuburan tanah kita.</p>
+            <a href="artikel/pencemarantanah.html" class="btn btn-primary mt-auto">Baca Detail (2)</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-custom shadow p-4 h-100 bg-white border-top border-info border-5">
+            <h3>💧</h3>
+            <h5 class="fw-bold">Pencemaran Air</h5>
+            <p class="small text-muted">Kualitas air yang mengancam kehidupan akuatik.</p>
+            <a href="artikel/pencemaranair.html" class="btn btn-primary mt-auto">Baca Detail (3)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-success text-white text-center py-3 mt-5">
+      <p class="mb-0">&copy; 2026 Kketua Enviroment - Jaga Alam, Alam Jaga Kita.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
